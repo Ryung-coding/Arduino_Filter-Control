@@ -1,4 +1,5 @@
 #include <Wire.h>
+//upload sample
 
 const int MPU_addr = 0x68; // MPU I2C address // 고유 레지스터
 float AccX, AccY, AccZ; // 가속도 센서
