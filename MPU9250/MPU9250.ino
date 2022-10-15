@@ -68,7 +68,7 @@ void loop() {
 
   Serial.print(accAngleY);
   Serial.print(',');
-  Serial.println(gyroAngleY);
-
- 
+  Serial.print(constrain(gyroAngleY,gyroAngleY+50,gyroAngleY-50));
+  Serial.print(',');
+  Serial.println(pitch); 
 }
